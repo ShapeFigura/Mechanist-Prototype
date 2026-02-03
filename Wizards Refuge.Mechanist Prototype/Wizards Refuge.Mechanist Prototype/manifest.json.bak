@@ -1,0 +1,14 @@
+{
+  "Group": "Figura",
+  "Name": "Echoes of the Machine",
+  "Version": "0.0.1",
+  "Description": "",
+  "Authors": [],
+  "Website": "",
+  "Dependencies": {},
+  "OptionalDependencies": {},
+  "LoadBefore": {},
+  "DisabledByDefault": false,
+  "IncludesAssetPack": false,
+  "SubPlugins": []
+}

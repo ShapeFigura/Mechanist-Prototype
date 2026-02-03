@@ -1,0 +1,105 @@
+{
+  "TranslationProperties": {
+    "Name": "Portal to Orbis",
+    "Description": "server.items.Hub_Portal_Default.description"
+  },
+  "Icon": "Icons/ItemsGenerated/Orbis_Portal.png",
+  "Categories": [
+    "Blocks.Portals"
+  ],
+  "BlockType": {
+    "DrawType": "Model",
+    "Material": "Solid",
+    "Opacity": "Transparent",
+    "CustomModel": "Blocks/Miscellaneous/Otherworld_Portal.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Miscellaneous/Otherworld_Portal_Texture.png",
+        "Weight": 1
+      }
+    ],
+    "HitboxType": "Pad_Portal",
+    "BlockParticleSetId": "Stone",
+    "BlockSoundSetId": "Stone",
+    "VariantRotation": "NESW",
+    "Flags": {
+      "IsUsable": false
+    },
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "SoftBlocks"
+      }
+    },
+    "Light": {
+      "Color": "#77f",
+      "Radius": 3
+    },
+    "AmbientSoundEventId": "SFX_Portal_Neutral",
+    "Particles": [
+      {
+        "SystemId": "MagicPortal_Default",
+        "PositionOffset": {
+          "Y": 2.0
+        },
+        "Scale": 0.8
+      }
+    ],
+    "Interactions": {
+      "CollisionEnter": {
+        "Interactions": [
+          {
+            "Type": "HubPortal",
+            "WorldName": "default_world",
+            "WorldGenType": "Hytale",
+            "Next": {
+              "Type": "Simple",
+              "Effects": {
+                "LocalSoundEventId": "SFX_Portal_Neutral_Teleport_Local"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "CustomModelAnimation": "Blocks/Miscellaneous/Portal_Shift.blockyanim",
+    "Looping": true,
+    "Speed": 1
+  },
+  "PlayerAnimationsId": "Block",
+  "Tags": {
+    "Type": [
+      "Portal",
+      "HubPortal"
+    ]
+  },
+  "Quality": "Epic",
+  "IconProperties": {
+    "Scale": 0.2,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -54
+    ]
+  },
+  "ItemSoundSetId": "ISS_Blocks_Stone",
+  "Recipe": {
+    "BenchRequirement": [
+      {
+        "Categories": [
+          "Mechanist_Category"
+        ],
+        "Id": "Mechanistbench"
+      }
+    ],
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Mechanist",
+        "Quantity": 1
+      }
+    ]
+  }
+}

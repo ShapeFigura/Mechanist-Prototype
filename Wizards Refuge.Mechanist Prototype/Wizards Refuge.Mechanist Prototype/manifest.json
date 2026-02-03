@@ -1,0 +1,25 @@
+{
+  "Group": "Wizards Refuge",
+  "Name": "Mechanist Prototype",
+  "Version": "0.0.1",
+  "Description": "Prototype mod, awaiting expansion.",
+  "Authors": [
+    {
+      "Name": "Figura",
+      "Email": "",
+      "Url": ""
+    },
+    {
+      "Name": "Dargerly_Tanaka",
+      "Email": "",
+      "Url": ""
+    }
+  ],
+  "Website": "",
+  "Dependencies": {},
+  "OptionalDependencies": {},
+  "LoadBefore": {},
+  "DisabledByDefault": false,
+  "IncludesAssetPack": false,
+  "SubPlugins": []
+}
