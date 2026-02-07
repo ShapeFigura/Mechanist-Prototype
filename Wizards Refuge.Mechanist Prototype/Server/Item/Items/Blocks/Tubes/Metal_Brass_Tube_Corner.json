@@ -1,0 +1,66 @@
+{
+  "TranslationProperties": {
+    "Name": "Brass Corner Tube"
+  },
+  "Parent": "Wood_Oak_Branch_Long",
+  "Icon": "Icons/ItemsGenerated/Metal_Brass_Tube_Corner.png",
+  "BlockType": {
+    "CustomModel": "Blocks/Structures/Tubes/Corner.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Items/Blocks/Tube_Textures/Metal_Brass_Tube_Texture.png",
+        "Weight": 1
+      }
+    ],
+    "HitboxType": "Branch_Corner",
+    "VariantRotation": "UpDownNESW",
+    "Support": {
+      "Up": [
+        {
+          "FaceType": "Full",
+          "Rotate": true
+        },
+        {
+          "FaceType": "Branch",
+          "Support": "Ignored"
+        }
+      ],
+      "North": [
+        {
+          "FaceType": "Full",
+          "Rotate": true
+        },
+        {
+          "FaceType": "Branch",
+          "Support": "Ignored"
+        }
+      ]
+    },
+    "Supporting": {
+      "Up": [
+        {
+          "FaceType": "Branch"
+        }
+      ],
+      "North": [
+        {
+          "FaceType": "Branch"
+        }
+      ]
+    },
+    "FlipType": "Orthogonal",
+    "ParticleColor": "#572f1e"
+  },
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  }
+}

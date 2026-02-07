@@ -1,0 +1,131 @@
+{
+  "TranslationProperties": {
+    "Name": "Dev Water Maker"
+  },
+  "Icon": "Icons/ItemsGenerated/Water_Maker_Block.png",
+  "Categories": [
+    "Blocks.Rocks"
+  ],
+  "Interactions": {
+    "Secondary": {
+      "Interactions": [
+        {
+          "Parent": "Half_Block",
+          "Matchers": [
+            {
+              "Block": {
+                "Id": "Rock_Aqua_Brick_Half",
+                "State": "default"
+              },
+              "Face": "Up",
+              "StaticFace": false
+            }
+          ]
+        }
+      ],
+      "Cooldown": {
+        "Id": "BlockInteraction",
+        "Cooldown": 0.3,
+        "ClickBypass": true
+      },
+      "Settings": {
+        "Creative": {
+          "AllowSkipChainOnClick": true
+        }
+      }
+    }
+  },
+  "Set": "Dev_Blocks",
+  "Recipe": {
+    "Input": [
+      {
+        "Quantity": 1,
+        "ResourceTypeId": "Rock_Aqua_Brick"
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Builders",
+        "Type": "StructuralCrafting",
+        "Categories": [
+          "HalfSlab"
+        ]
+      }
+    ],
+    "OutputQuantity": 2,
+    "TimeSeconds": 0
+  },
+  "BlockType": {
+    "CustomModelTexture": [
+      {
+        "Texture": "Items/Blocks/Dev_Block_Textures/Water_Maker_Texture.png",
+        "Weight": 1
+      }
+    ],
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks"
+      }
+    },
+    "ParticleColor": "#255a63",
+    "State": {
+      "Definitions": {
+        "Block": {
+          "Material": "Solid",
+          "DrawType": "Cube",
+          "HitboxType": "Full",
+          "Textures": [
+            {
+              "All": "BlockTextures/Rock_Aqua_Brick_Side.png",
+              "Weight": 1
+            }
+          ],
+          "Supporting": {
+            "BlockSides": [
+              {}
+            ]
+          }
+        }
+      }
+    },
+    "CustomModel": "Blocks/Structures/Dev_Blocks/Water_Maker_Block.blockymodel",
+    "BlockParticleSetId": "Ice",
+    "Particles": [
+      {
+        "SystemId": "Water_Bubble_Stream",
+        "TargetEntityPart": "PrimaryItem",
+        "TargetNodeName": "Water_Maker",
+        "Color": "#7585ef",
+        "Scale": 2
+      },
+      {
+        "SystemId": "Water_Bubble_Stream",
+        "TargetEntityPart": "PrimaryItem",
+        "TargetNodeName": "Water_Maker",
+        "Scale": 2
+      }
+    ],
+    "HitboxType": "Block_Flat"
+  },
+  "Tags": {
+    "Type": [
+      "Rock"
+    ],
+    "Family": [
+      "Aqua"
+    ]
+  },
+  "Parent": "Rock_Stone_Brick_Half",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  }
+}
