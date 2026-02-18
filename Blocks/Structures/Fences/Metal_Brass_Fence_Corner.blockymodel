@@ -1,0 +1,235 @@
+{
+  "nodes": [
+    {
+      "id": "1",
+      "name": "Platform3",
+      "position": {"x": -6.5, "y": 27, "z": 0},
+      "orientation": {"x": -0.65328, "y": -0.2706, "z": 0.65328, "w": 0.2706},
+      "shape": {
+        "type": "box",
+        "offset": {"x": 0, "y": 0, "z": 1},
+        "stretch": {"x": 1, "y": 1, "z": 1},
+        "settings": {
+          "isPiece": false,
+          "size": {"x": 6, "y": 6, "z": 17}
+        },
+        "textureLayout": {
+          "back": {
+            "offset": {"x": 23, "y": 11},
+            "mirror": {"x": false, "y": false},
+            "angle": 180
+          },
+          "right": {
+            "offset": {"x": 18, "y": 14},
+            "mirror": {"x": true, "y": true},
+            "angle": 270
+          },
+          "front": {
+            "offset": {"x": 17, "y": 11},
+            "mirror": {"x": false, "y": true},
+            "angle": 0
+          },
+          "left": {
+            "offset": {"x": 12, "y": 0},
+            "mirror": {"x": true, "y": true},
+            "angle": 270
+          },
+          "top": {
+            "offset": {"x": 18, "y": 30},
+            "mirror": {"x": true, "y": true},
+            "angle": 0
+          },
+          "bottom": {
+            "offset": {"x": 18, "y": 12},
+            "mirror": {"x": true, "y": false},
+            "angle": 0
+          }
+        },
+        "unwrapMode": "custom",
+        "visible": true,
+        "doubleSided": false,
+        "shadingMode": "standard"
+      }
+    },
+    {
+      "id": "2",
+      "name": "Platform4",
+      "position": {"x": 2.5, "y": 27, "z": 0},
+      "orientation": {"x": -0.65328, "y": -0.2706, "z": 0.65328, "w": 0.2706},
+      "shape": {
+        "type": "none",
+        "offset": {"x": 0, "y": 0, "z": 0},
+        "stretch": {"x": 0, "y": 0, "z": 0},
+        "settings": {
+          "isPiece": false
+        },
+        "textureLayout": {},
+        "unwrapMode": "custom",
+        "visible": true,
+        "doubleSided": false,
+        "shadingMode": "flat"
+      }
+    },
+    {
+      "id": "3",
+      "name": "Platform3",
+      "position": {"x": 0, "y": 27, "z": 9.5},
+      "orientation": {"x": 0.92388, "y": 0.38268, "z": 0, "w": 0},
+      "shape": {
+        "type": "box",
+        "offset": {"x": 0, "y": 0, "z": 2},
+        "stretch": {"x": 1, "y": 1, "z": 1},
+        "settings": {
+          "isPiece": false,
+          "size": {"x": 6, "y": 6, "z": 17}
+        },
+        "textureLayout": {
+          "back": {
+            "offset": {"x": 17, "y": 5},
+            "mirror": {"x": false, "y": false},
+            "angle": 0
+          },
+          "right": {
+            "offset": {"x": 18, "y": 31},
+            "mirror": {"x": true, "y": false},
+            "angle": 90
+          },
+          "front": {
+            "offset": {"x": 17, "y": 11},
+            "mirror": {"x": false, "y": true},
+            "angle": 0
+          },
+          "left": {
+            "offset": {"x": 18, "y": 13},
+            "mirror": {"x": true, "y": true},
+            "angle": 270
+          },
+          "top": {
+            "offset": {"x": 18, "y": 14},
+            "mirror": {"x": true, "y": false},
+            "angle": 0
+          },
+          "bottom": {
+            "offset": {"x": 18, "y": 32},
+            "mirror": {"x": true, "y": true},
+            "angle": 0
+          }
+        },
+        "unwrapMode": "custom",
+        "visible": true,
+        "doubleSided": false,
+        "shadingMode": "standard"
+      }
+    },
+    {
+      "id": "4",
+      "name": "Platform2",
+      "position": {"x": 0, "y": 13, "z": 9.5},
+      "orientation": {"x": 0, "y": 0, "z": 0.92388, "w": 0.38268},
+      "shape": {
+        "type": "none",
+        "offset": {"x": 0, "y": 0, "z": 0},
+        "stretch": {"x": 0, "y": 0, "z": 0},
+        "settings": {
+          "isPiece": false
+        },
+        "textureLayout": {},
+        "unwrapMode": "custom",
+        "visible": true,
+        "doubleSided": false,
+        "shadingMode": "flat"
+      }
+    },
+    {
+      "id": "5",
+      "name": "Beam",
+      "position": {"x": -10, "y": 0, "z": 0},
+      "orientation": {"x": 0, "y": 0.92388, "z": 0, "w": -0.38268},
+      "shape": {
+        "type": "none",
+        "offset": {"x": 0, "y": 0, "z": 0},
+        "stretch": {"x": 0, "y": 0, "z": 0},
+        "settings": {
+          "isPiece": false
+        },
+        "textureLayout": {},
+        "unwrapMode": "custom",
+        "visible": true,
+        "doubleSided": false,
+        "shadingMode": "flat"
+      }
+    },
+    {
+      "id": "6",
+      "name": "Beam3",
+      "position": {"x": 0, "y": 0, "z": 0},
+      "orientation": {"x": 0, "y": 0.92388, "z": 0, "w": -0.38268},
+      "shape": {
+        "type": "box",
+        "offset": {"x": 0, "y": 11.5, "z": 0},
+        "stretch": {"x": 1, "y": 1, "z": 1},
+        "settings": {
+          "isPiece": false,
+          "size": {"x": 5, "y": 31, "z": 5}
+        },
+        "textureLayout": {
+          "back": {
+            "offset": {"x": 12, "y": 1},
+            "mirror": {"x": false, "y": false},
+            "angle": 0
+          },
+          "right": {
+            "offset": {"x": 12, "y": 1},
+            "mirror": {"x": false, "y": false},
+            "angle": 0
+          },
+          "front": {
+            "offset": {"x": 17, "y": 1},
+            "mirror": {"x": true, "y": false},
+            "angle": 0
+          },
+          "left": {
+            "offset": {"x": 17, "y": 1},
+            "mirror": {"x": true, "y": false},
+            "angle": 0
+          },
+          "top": {
+            "offset": {"x": 17, "y": 0},
+            "mirror": {"x": false, "y": false},
+            "angle": 0
+          },
+          "bottom": {
+            "offset": {"x": 17, "y": 0},
+            "mirror": {"x": false, "y": false},
+            "angle": 0
+          }
+        },
+        "unwrapMode": "custom",
+        "visible": true,
+        "doubleSided": false,
+        "shadingMode": "standard"
+      }
+    },
+    {
+      "id": "7",
+      "name": "Beam2",
+      "position": {"x": 0, "y": 0, "z": 10.2},
+      "orientation": {"x": 0, "y": 0.92388, "z": 0, "w": -0.38268},
+      "shape": {
+        "type": "none",
+        "offset": {"x": 0, "y": 0, "z": 0},
+        "stretch": {"x": 0, "y": 0, "z": 0},
+        "settings": {
+          "isPiece": false
+        },
+        "textureLayout": {},
+        "unwrapMode": "custom",
+        "visible": true,
+        "doubleSided": false,
+        "shadingMode": "flat"
+      }
+    }
+  ],
+  "format": "prop",
+  "lod": "auto"
+}
